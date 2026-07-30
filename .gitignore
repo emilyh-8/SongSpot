@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Regenerates locally
+database.json
+songs.json
+
+songs/*
+!songs/.gitkeep
+*.wav
+*.mp3
