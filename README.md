@@ -4,14 +4,14 @@ A from-scratch implementation of the algorithm behind "Shazam," identifying a so
 from a short and/or noisy audio clip by matching acoustic "fingerprints"
 against a database of known songs.
 
-## Why I Built This
+## Why This Project
 
 From my background as a pianist, I wanted to understand how audio recognition
 actually works, rather than calling an API. This project touches signal processing
 (spectrograms, FFT), algorithm design (local-peak-pair hashing), and search
 (inverted indices for quick lookup). This is all built from first, basic principles.
 
-## How it works
+## How It Works
 
 1. **Waveform** — Load the audio as a plain array of samples (air pressure
    over time) using `librosa` library.
