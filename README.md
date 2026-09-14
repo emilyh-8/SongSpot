@@ -1,4 +1,4 @@
-# TuneRecog — Audio Fingerprinting ("Shazam")
+# SongSpot — Audio Fingerprinting ("Shazam")
 
 A from-scratch implementation of the algorithm behind "Shazam," identifying a song
 from a short and/or noisy audio clip by matching acoustic "fingerprints"
